@@ -1,0 +1,97 @@
+.crud-course-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crud-course-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.crud-course-container .course-form {
+    margin-bottom: 20px;
+}
+
+.crud-course-container .form-group {
+    margin-bottom: 10px;
+}
+
+.crud-course-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.crud-course-container [type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.crud-course-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.crud-course-container button:hover {
+    background-color: #0056b3;
+}
+
+.crud-course-container button:active {
+    background-color: #004080;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.crud-course-container .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.crud-course-container .add-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.crud-course-container .edit-btn {
+    background-color: #ffc107;
+    color: black;
+}
+
+.crud-course-container .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.crud-course-container .courses-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.crud-course-container .courses-table th,
+.courses-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.crud-course-container .courses-table th {
+    background-color: #f2f2f2;
+}
+
+.crud-course-container .course-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
